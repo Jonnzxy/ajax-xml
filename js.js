@@ -16,8 +16,8 @@ function buscarXML() {
                 manchetesContainer.innerHTML = ""; //limpa a div
 
                 //vamos percorrer a lista usando for
-                for (let i = 0; <noticias.length; i++){
-                let doc = noticias [i].getElementByTagName
+                for (let i = 0; i < noticias.length; i++) {
+                let doc = noticias[i].getElementsByTagName("loc")[0].textContent;
                 ("loc")[0].textcontent;
 
                 //extrai a data de public.
